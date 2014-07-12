@@ -4,3 +4,7 @@ table tr td:last-child {
     white-space: nowrap;
     width: 1px;
 }
+
+input[type="number"] {
+   width:50px;
+}

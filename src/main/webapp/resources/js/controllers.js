@@ -110,6 +110,11 @@ posControllers.controller('PosMainController', ['$scope','$http',
 	
 		$scope.quantity = 1;
 		
+		$scope.status1 = true;
+		$scope.status2 = true;
+		$scope.status3 = true;
+		$scope.status4 = true;
+		
 		$scope.completeOrder = function() {
 			while($scope.order.length > 0) {
 			    $scope.order.pop();
